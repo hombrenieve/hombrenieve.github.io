@@ -8,9 +8,11 @@ function getUrlVars() {
 
 const images = {};
 images['Lady Bug'] = 'ladybug.jpg';
+images['Vampirina'] = 'vampirina.jpg';
 
 const moto = {};
 moto['Lady Bug'] = "¡Tiki puntos fuera!";
+moto['Vampirina'] = "¡Soy como tú!";
 
 
 function setName(name) {
