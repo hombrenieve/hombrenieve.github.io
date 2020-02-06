@@ -9,11 +9,14 @@ function getUrlVars() {
 const images = {};
 images['Lady Bug'] = 'ladybug.jpg';
 images['Vampirina'] = 'vampirina.jpg';
+images['Los Pitufos'] = 'pitufos.jpg'
+images['La Pantera Rosa'] = 'pantera.jpg'
 
 const moto = {};
-moto['Lady Bug'] = "¡Tiki puntos fuera!";
+moto['Lady Bug'] = "¡Puntos fuera!";
 moto['Vampirina'] = "¡Soy como tú!";
-
+moto['Los Pitufos'] = "¡Pitufeando!";
+moto['La Pantera Rosa'] = "¿Por qué los humanos no pueden ser tan inteligentes como los animales?";
 
 function setName(name) {
     $('#nombre').text(name);
