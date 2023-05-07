@@ -7,10 +7,11 @@ function getUrlVars() {
 }
 
 function setName(name) {
-    $('#nombre').text(name);
+    var span = document.getElementById("nombre");
+    span.textContent = name;
 }
 
-$(function() {
+(function() {
     const name = decodeURIComponent(getUrlVars()['nombre']);
     setName(name);
-});
+})();
