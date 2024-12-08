@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1>Santa Claus is coming...</h1>
+        <p>Por favor mete tu código y presions el botón de validar</p>
+        <input type="text" id="input" />
+        <button id="button">Validar</button>
+        <script>
+            document.getElementById("button").addEventListener("click", () => {
+                let input = document.getElementById("input").value;
+                if(input.trim().length > 0) {
+                    fetch("/" + input.trim())
+                        .then(response => {
+                            if(response.status === 200) {
+                                window.location.href = "/" + input.trim();
+                            } else {
+                                window.location.href = "/error";
+                            }
+                        });
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<!--Una página de error con un llamativo mensaje advirtiendo de que el código introducido no es valido
+tras unos segundos automáticamente redirige a la página principal-->
+
+<html>
+    <body>
+        <h1>Santa Claus is coming...</h1>
+        <p>El código introducido es invalido. En breve volverás a la página principal</p>
+        <script>
+            setTimeout(function(){
+                window.location.href = "/";
+            },5000);
+        </script>
+    </body>
+</html>
