@@ -1,28 +1,97 @@
-<!--Una página de error con un llamativo mensaje advirtiendo de que el código introducido no es valido
-tras unos segundos automáticamente redirige a la página principal-->
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Christmas - Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<html>
-    <body>
-        <h1>Santa Claus is coming...</h1>
-        <script>
-            const params = new URLSearchParams(window.location.search);
-            const code = params.get('code');
-            explanation = '';
-            if(code.length > 4 || code.length < 4) {
-                explanation = "El código no tiene la longitud correcta (4 dígitos)"
-            } else if(!code.match("/^[0-9]+$/")) {
-                explanation = "El código solo puede contener números"
-            }
-            document.write('<p>El código introducido es invalido: ' + code + '. En breve volverás a la página principal</p>');
-            if(explanation.length > 0) {
-                document.write("<p>Detalle: " + explanation + "</p>");
-            }
-        </script>
-        <p>O también puedes volver ahora: </p><a href="index.html">Volver</a>
-        <script>
-            setTimeout(function(){
-                window.location.href = "index.html";
-            },5000);
-        </script>
-    </body>
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="error" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+	
+	<div id="msg" class="about-box" style="padding-bottom: 0;">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+						
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+								<h2><img style="width: 60px;" src="images/head_s.png" alt="#" />No es correcto</h2>
+								<script>
+									const params = new URLSearchParams(window.location.search);
+									const code = params.get('code');
+									explanation = '';
+									if(code.length > 4 || code.length < 4) {
+										explanation = "El código no tiene la longitud correcta (4 dígitos)"
+									} else if(!code.match("/^[0-9]+$/")) {
+										explanation = "El código solo puede contener números"
+									}
+									document.write('<p>El código introducido es invalido: ' + code + '. En breve volverás a la página principal</p>');
+									if(explanation.length > 0) {
+										document.write("<p>Detalle: " + explanation + "</p>");
+									}
+									setTimeout(function(){
+										window.location.href = "index.html";
+									},5000);
+								</script>
+								<p>O también puedes volver ahora si quieres:   
+							<a href="index.html" class="hvr-radial-out button-theme">Volver</a></p>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
+						      <div class="full">
+						      	  <img class="img-responsive" src="images/w2.png" alt="#" />
+						      </div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script> 
+	<script src="js/slider-index.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+	<script src="js/isotope.min.js"></script>	
+	<script src="js/images-loded.min.js"></script>	
+    <script src="js/custom.js"></script>
+</body>
 </html>
