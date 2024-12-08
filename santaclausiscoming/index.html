@@ -1,7 +1,7 @@
 <html>
     <body>
         <h1>Santa Claus is coming...</h1>
-        <p>Por favor mete tu código y presions el botón de validar</p>
+        <p>Por favor mete tu código y presiona el botón de validar</p>
         <input type="text" id="input" />
         <button id="button">Validar</button>
         <script>
@@ -13,7 +13,7 @@
                             if(response.status === 200) {
                                 window.location.href = "" + input.trim() + ".html";
                             } else {
-                                window.location.href = "error.html";
+                                window.location.href = "error.html?code=" + input.trim();
                             }
                         });
                 }
