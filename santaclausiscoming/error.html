@@ -7,14 +7,14 @@ tras unos segundos automáticamente redirige a la página principal-->
         <script>
             const params = new URLSearchParams(window.location.search);
             const code = params.get('code');
-            explanation = "";
-            if(code.length() > 4 || code.length() < 4) {
+            explanation = '';
+            if(code.length > 4 || code.length < 4) {
                 explanation = "El código no tiene la longitud correcta (4 dígitos)"
-            } else if(!code.match(/^[0-9]+$/)) {
+            } else if(!code.match("/^[0-9]+$/")) {
                 explanation = "El código solo puede contener números"
             }
             document.write('<p>El código introducido es invalido: ' + code + '. En breve volverás a la página principal</p>');
-            if(explanation.length() > 0) {
+            if(explanation.length > 0) {
                 document.write("<p>Detalle: " + explanation + "</p>");
             }
         </script>
