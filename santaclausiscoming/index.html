@@ -8,12 +8,12 @@
             document.getElementById("button").addEventListener("click", () => {
                 let input = document.getElementById("input").value;
                 if(input.trim().length > 0) {
-                    fetch("/" + input.trim())
+                    fetch("" + input.trim() + ".html")
                         .then(response => {
                             if(response.status === 200) {
-                                window.location.href = "/" + input.trim();
+                                window.location.href = "" + input.trim() + ".html";
                             } else {
-                                window.location.href = "/error";
+                                window.location.href = "error.html";
                             }
                         });
                 }
