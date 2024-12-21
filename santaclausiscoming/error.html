@@ -48,22 +48,12 @@
 								<script>
 									const params = new URLSearchParams(window.location.search);
 									const code = params.get('code');
-									explanation = '';
-									if(code.length > 4 || code.length < 4) {
-										explanation = "El código no tiene la longitud correcta (4 dígitos)"
-									} else if(!code.match("/^[0-9]+$/")) {
-										explanation = "El código solo puede contener números"
-									}
-									document.write('<p>El código introducido es invalido: ' + code + '. En breve volverás a la página principal</p>');
-									if(explanation.length > 0) {
-										document.write("<p>Detalle: " + explanation + "</p>");
-									}
+									document.write('<p>Código no válido: ' + code + '.</p>');
 									setTimeout(function(){
 										window.location.href = "index.html";
 									},5000);
-								</script>
-								<p>O también puedes volver ahora si quieres:   
-							<a href="index.html" class="hvr-radial-out button-theme">Volver</a></p>
+								</script>   
+							<p><a href="index.html" class="hvr-radial-out button-theme">Volver</a></p>
 							</div>
 
 							<div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
