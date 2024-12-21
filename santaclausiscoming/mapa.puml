@@ -1,0 +1,19 @@
+@startuml
+|Casa D|
+start
+:Carta en\nla puerta de casa;
+note left: 4143 -> Sillas
+|Casa E|
+:Papiroflexia de las sillas;
+note right: 4224 -> Lata café
+|Casa D|
+:Acertijo de las edades;
+note left: 2097 -> Kallax
+|Casa E|
+:Acertijo de las letras en inglés;
+note left: 2416 -> Tele
+|Casa D|
+:Fotos en la tele;
+note right: 2413
+stop
+@enduml
