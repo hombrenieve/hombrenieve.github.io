@@ -1406,6 +1406,10 @@ p {
   background: #e91327;
 }
 
+.red_color  {
+    color: #e91327;
+}
+
 
 .white_fonts p,
 .white_fonts h1,
