@@ -14,6 +14,21 @@ note left: 2097 -> Kallax
 note left: 2416 -> Tele
 |Casa D|
 :Fotos en la tele;
-note right: 2413
+note right: 2413 -> cubo pelotas
+|Patio|
+:globos de hielo;
+note right: 7856 -> escaleras
+|Casa E|
+:acertijo en escaleras;
+note right: 5678 -> lámpara
+|Casa D|
+:números en la lámpara;
+note right: 5078 -> garaje
+:cajetín de las llaves;
+note right: mensaje secreto
+:árbol de navidad;
+note right: Llaves del coche
+|Garaje|
+:REGALOS;
 stop
 @enduml
