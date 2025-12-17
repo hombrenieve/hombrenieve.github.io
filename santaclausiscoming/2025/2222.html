@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Christmas 2025 - Audio Treasure Hunt</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../shared/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../shared/images/apple-touch-icon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../shared/css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="../shared/css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="../shared/css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../shared/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../shared/css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		body {
+			background-image: url("../shared/images/unsplash2.jpg");
+		}
+		
+		.audio-container {
+			background: rgba(255, 255, 255, 0.9);
+			border-radius: 15px;
+			padding: 20px;
+			margin: 20px 0;
+			box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+		}
+		
+		.audio-controls {
+			text-align: center;
+			margin: 20px 0;
+		}
+		
+		audio {
+			width: 100%;
+			max-width: 400px;
+			margin: 10px 0;
+		}
+		
+		.play-button {
+			background: #d4af37;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 25px;
+			font-size: 16px;
+			cursor: pointer;
+			margin: 0 10px;
+			transition: all 0.3s ease;
+		}
+		
+		.play-button:hover {
+			background: #b8941f;
+			transform: scale(1.05);
+		}
+		
+		.image-gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 15px;
+			margin: 20px 0;
+		}
+		
+		.gallery-image {
+			max-width: 200px;
+			max-height: 200px;
+			border-radius: 10px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+			transition: transform 0.3s ease;
+		}
+		
+		.gallery-image:hover {
+			transform: scale(1.1);
+		}
+	</style>
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+	
+	<!-- wish -->
+	<div id="wish" class="about-box" style="margin-top: 50px;padding-top: 25px;padding-bottom: 50px;">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+								<div class="audio-container">
+									<h2>¡¡Habéis encontrado una pista de audio!!</h2>
+									
+									<!-- Audio Controls -->
+									<div class="audio-controls">
+										<audio id="clueAudio" controls preload="auto">
+											<source src="media/2222.mp3" type="audio/mpeg">
+											Tu navegador no soporta el elemento de audio.
+										</audio>
+										<br>
+										<button class="play-button" onclick="playAudio()">▶️ Reproducir</button>
+										<button class="play-button" onclick="pauseAudio()">⏸️ Pausar</button>
+										<button class="play-button" onclick="restartAudio()">🔄 Reiniciar</button>
+									</div>
+									
+									<!-- Images Gallery -->
+									<div class="image-gallery">
+										<img class="gallery-image img-responsive" src="media/brian.png" alt="Brian" />
+										<img class="gallery-image img-responsive" src="../shared/images/head_s.png" alt="Pista visual" />
+										<!-- Add more images as needed -->
+									</div>
+									
+									<p style="margin-top: 30px;">
+										<a href="index.html" class="hvr-radial-out button-theme">Introducir nuevo código</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+	</div>
+	
+	<!-- ALL JS FILES -->
+	<script src="../shared/js/jquery.min.js"></script>
+	<script src="../shared/js/popper.min.js"></script>
+	<script src="../shared/js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="../shared/js/jquery.magnific-popup.min.js"></script>
+    <script src="../shared/js/jquery.pogo-slider.min.js"></script> 
+	<script src="../shared/js/slider-index.js"></script>
+	<script src="../shared/js/smoothscroll.js"></script>
+	<script src="../shared/js/form-validator.min.js"></script>
+    <script src="../shared/js/contact-form-script.js"></script>
+	<script src="../shared/js/isotope.min.js"></script>	
+	<script src="../shared/js/images-loded.min.js"></script>	
+    <script src="../shared/js/custom.js"></script>
+	
+	<!-- Custom Audio Script -->
+	<script>
+		const audio = document.getElementById('clueAudio');
+		
+		// Auto-play when page loads (with user interaction fallback)
+		window.addEventListener('load', function() {
+			// Try to autoplay, but browsers may block this
+			audio.play().catch(function(error) {
+				console.log('Autoplay was prevented. User interaction required.');
+			});
+		});
+		
+		function playAudio() {
+			audio.play();
+		}
+		
+		function pauseAudio() {
+			audio.pause();
+		}
+		
+		function restartAudio() {
+			audio.currentTime = 0;
+			audio.play();
+		}
+		
+		// Add visual feedback when audio is playing
+		audio.addEventListener('play', function() {
+			document.querySelector('.audio-container').style.border = '3px solid #d4af37';
+		});
+		
+		audio.addEventListener('pause', function() {
+			document.querySelector('.audio-container').style.border = 'none';
+		});
+		
+		audio.addEventListener('ended', function() {
+			document.querySelector('.audio-container').style.border = 'none';
+		});
+	</script>
+</body>
+</html>
