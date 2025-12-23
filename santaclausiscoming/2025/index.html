@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Christmas - Responsive HTML5 Template</title>  
+    <title>Christmas 2025 - Treasure Hunt</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="#" />
+    <link rel="shortcut icon" href="../shared/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../shared/images/apple-touch-icon.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../shared/css/bootstrap.min.css">
@@ -27,56 +27,72 @@
     <link rel="stylesheet" href="../shared/css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../shared/css/custom.css">
+    <!-- Treasure Hunt 2025 CSS -->
+    <link rel="stylesheet" href="treasure-hunt-2025.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 	
-	<!-- wish -->
-	<div id="wish" class="about-box" style="padding-bottom: 0;">
+	<!-- Main Content -->
+	<div id="wish" class="about-box" style="margin-top: 50px;padding-top: 25px;padding-bottom: 50px;">
 		<div class="about-a1">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
-						<div class="title-box">
-							<h2>Best Wishes</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12">
-						<div class="row align-items-center about-main-info">
+						<div class="treasure-hunt-container">
+							<div class="year-badge">🎄 2025 🎄</div>
 							
-							<div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
-						      <div class="full">
-						      	  <img class="img-responsive" src="../shared/images/w1.png" alt="#" />
-						      </div>
+							<h1 class="main-title">
+								<span class="treasure-emoji">🎄</span>
+								Búsqueda del Tesoro Navideño
+								<span class="treasure-emoji">🎁</span>
+							</h1>
+							
+							<p class="subtitle">¡Una aventura mágica te espera!</p>
+							
+							<!-- Papa Pirata Image -->
+							<div>
+								<img class="pirate-image img-responsive" src="media/papa_pirata.png" alt="Papa Noel Pirata" />
 							</div>
-                              <div class="col-lg-6 col-md-6 col-sm-12">
-								<h2><img style="width: 60px;" src="../shared/images/head_s.png" alt="#" />Santa is coming</h2>
-								<p>Mete el código de 4 dígitos en el campo a continuación y pulsa validar.</p>
-								<div class="subscribe-inner">
-									<div class="form-group">
-                                        <input class="form-control-1" id="code" name="code1" placeholder="Código" required="" type="text">
-                                    </div>
-                                    <div class="form-group">
-                                        <button id="button" class="hvr-radial-out">
-                                            Validar
-                                        </button>
-                                    </div>
+							
+							<div class="christmas-hint">
+								<p><strong>🎅 ¡Ho ho ho, aventureros! 🎄</strong></p>
+								<p>Este año Papa Noel ha preparado una búsqueda del tesoro muy especial.</p>
+								<p>¡Resolved los acertijos navideños, encontrad las pistas y descubrid la sorpresa final!</p>
+							</div>
+							
+							<div class="code-input-section">
+								<p class="instruction-text">
+									<strong>Introduce el código de 4 dígitos que has encontrado:</strong>
+								</p>
+								
+								<div class="form-group mb-4">
+									<input class="form-control form-control-treasure" id="code" name="code1" placeholder="🔢 ####" required="" type="text" maxlength="4">
+								</div>
+								
+								<div class="form-group">
+									<button id="button" class="btn btn-treasure">
+										🔍 Validar Código 🔍
+									</button>
 								</div>
 							</div>
+							
+							<p class="instruction-text">
+								<span class="treasure-emoji">🎄</span>
+								Cada código te llevará a una nueva pista en tu aventura navideña
+								<span class="treasure-emoji">⭐</span>
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div> 
 	</div>
-	<!-- wish us -->
+	
 	<script>
 		window.addEventListener("DOMContentLoaded", function () {
 			document.getElementById("code").focus();
@@ -115,5 +131,37 @@
 	<script src="../shared/js/isotope.min.js"></script>	
 	<script src="../shared/js/images-loded.min.js"></script>	
     <script src="../shared/js/custom.js"></script>
+	
+	<!-- Custom Animation Script -->
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const container = document.querySelector('.treasure-hunt-container');
+			const pirateImage = document.querySelector('.pirate-image');
+			
+			// Add hover effect to container
+			container.addEventListener('mouseenter', function() {
+				this.style.transform = 'scale(1.02)';
+				this.style.transition = 'transform 0.3s ease';
+			});
+			
+			container.addEventListener('mouseleave', function() {
+				this.style.transform = 'scale(1)';
+			});
+			
+			// Add click effect to pirate image
+			pirateImage.addEventListener('click', function() {
+				// Create treasure effect
+				this.style.animation = 'none';
+				this.style.transform = 'scale(1.1) rotate(5deg)';
+				this.style.filter = 'brightness(1.2)';
+				
+				// Reset after 1 second
+				setTimeout(() => {
+					this.style.transform = 'scale(1) rotate(0deg)';
+					this.style.filter = 'brightness(1)';
+				}, 1000);
+			});
+		});
+	</script>
 </body>
 </html>

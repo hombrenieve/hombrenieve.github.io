@@ -27,129 +27,13 @@
     <link rel="stylesheet" href="../shared/css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../shared/css/custom.css">
+    <!-- Treasure Hunt 2025 CSS -->
+    <link rel="stylesheet" href="treasure-hunt-2025.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<style>
-		body {
-			background-image: url("../shared/images/unsplash2.jpg");
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-		}
-		
-		.balloon-container {
-			background: rgba(255, 255, 255, 0.95);
-			border-radius: 20px;
-			padding: 40px;
-			margin: 20px 0;
-			box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-			text-align: center;
-			border: 3px solid #FF6B6B;
-		}
-		
-		.balloon-emoji {
-			font-size: 4em;
-			animation: float 3s ease-in-out infinite;
-			margin: 0 15px;
-			display: inline-block;
-		}
-		
-		@keyframes float {
-			0%, 100% {
-				transform: translateY(0px);
-			}
-			50% {
-				transform: translateY(-20px);
-			}
-		}
-		
-		.verse-text {
-			font-size: 1.9em;
-			color: #2c3e50;
-			font-weight: bold;
-			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-			margin: 25px 0;
-			line-height: 1.4;
-			font-style: italic;
-		}
-		
-		.verse-line {
-			margin: 20px 0;
-			padding: 15px;
-			background: rgba(255, 107, 107, 0.1);
-			border-radius: 15px;
-			border-left: 5px solid #FF6B6B;
-		}
-		
-		.pop-emoji {
-			font-size: 3em;
-			animation: pop 2s infinite;
-			margin: 0 10px;
-		}
-		
-		@keyframes pop {
-			0% {
-				transform: scale(1);
-			}
-			50% {
-				transform: scale(1.3);
-				filter: brightness(1.5);
-			}
-			100% {
-				transform: scale(1);
-			}
-		}
-		
-		.party-hint {
-			background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(255, 20, 147, 0.1));
-			border: 2px solid #FF6B6B;
-			border-radius: 15px;
-			padding: 25px;
-			margin: 30px 0;
-			color: #8B0000;
-			font-size: 1.2em;
-		}
-		
-		.sparkle {
-			color: #FFD700;
-			font-size: 1.8em;
-			animation: twinkle 1.5s infinite;
-		}
-		
-		@keyframes twinkle {
-			0%, 100% { opacity: 1; }
-			50% { opacity: 0.3; }
-		}
-		
-		.balloon-gallery {
-			display: flex;
-			justify-content: center;
-			flex-wrap: wrap;
-			gap: 20px;
-			margin: 30px 0;
-		}
-		
-		.balloon-item {
-			font-size: 5em;
-			animation: float 2s ease-in-out infinite;
-			cursor: pointer;
-			transition: transform 0.3s ease;
-		}
-		
-		.balloon-item:nth-child(1) { animation-delay: 0s; }
-		.balloon-item:nth-child(2) { animation-delay: 0.5s; }
-		.balloon-item:nth-child(3) { animation-delay: 1s; }
-		.balloon-item:nth-child(4) { animation-delay: 1.5s; }
-		.balloon-item:nth-child(5) { animation-delay: 2s; }
-		
-		.balloon-item:hover {
-			transform: scale(1.2);
-		}
-	</style>
 </head>
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 	

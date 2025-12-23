@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="../shared/css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../shared/css/custom.css">
+    <!-- Treasure Hunt 2025 CSS -->
+    <link rel="stylesheet" href="treasure-hunt-2025.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -36,132 +38,6 @@
 		body {
 			background: linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #2c3e50 100%);
 			background-attachment: fixed;
-		}
-		
-		.cozy-container {
-			background: rgba(255, 248, 220, 0.95);
-			border-radius: 25px;
-			padding: 45px;
-			margin: 20px 0;
-			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-			text-align: center;
-			border: 3px solid #8B4513;
-		}
-		
-		.moon-emoji {
-			font-size: 4em;
-			animation: glow 3s ease-in-out infinite alternate;
-			margin: 20px 0;
-			text-shadow: 0 0 20px #FFD700;
-		}
-		
-		@keyframes glow {
-			from {
-				text-shadow: 0 0 20px #FFD700, 0 0 30px #FFD700;
-			}
-			to {
-				text-shadow: 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700;
-			}
-		}
-		
-		.verse-text {
-			font-size: 1.9em;
-			color: #5D4E37;
-			font-weight: bold;
-			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-			margin: 25px 0;
-			line-height: 1.5;
-			font-style: italic;
-		}
-		
-		.verse-line {
-			margin: 20px 0;
-			padding: 18px;
-			background: rgba(139, 69, 19, 0.1);
-			border-radius: 15px;
-			border-left: 5px solid #8B4513;
-		}
-		
-		.sleepy-emoji {
-			font-size: 2.5em;
-			animation: sleepy 4s ease-in-out infinite;
-			margin: 0 10px;
-		}
-		
-		@keyframes sleepy {
-			0%, 100% {
-				transform: rotate(-5deg);
-				opacity: 1;
-			}
-			50% {
-				transform: rotate(5deg);
-				opacity: 0.7;
-			}
-		}
-		
-		.cozy-hint {
-			background: linear-gradient(135deg, rgba(139, 69, 19, 0.1), rgba(160, 82, 45, 0.1));
-			border: 2px solid #8B4513;
-			border-radius: 20px;
-			padding: 30px;
-			margin: 35px 0;
-			color: #654321;
-			font-size: 1.2em;
-		}
-		
-		.warm-sparkle {
-			color: #FF8C00;
-			font-size: 1.8em;
-			animation: warmth 2s infinite;
-		}
-		
-		@keyframes warmth {
-			0%, 100% { 
-				opacity: 1; 
-				transform: scale(1);
-			}
-			50% { 
-				opacity: 0.6; 
-				transform: scale(1.1);
-			}
-		}
-		
-		.blanket-gallery {
-			display: flex;
-			justify-content: center;
-			flex-wrap: wrap;
-			gap: 25px;
-			margin: 35px 0;
-		}
-		
-		.blanket-item {
-			font-size: 4em;
-			animation: cozy 3s ease-in-out infinite;
-			cursor: pointer;
-			transition: transform 0.3s ease;
-		}
-		
-		.blanket-item:nth-child(1) { animation-delay: 0s; }
-		.blanket-item:nth-child(2) { animation-delay: 1s; }
-		.blanket-item:nth-child(3) { animation-delay: 2s; }
-		
-		@keyframes cozy {
-			0%, 100% {
-				transform: translateY(0px) rotate(0deg);
-			}
-			50% {
-				transform: translateY(-10px) rotate(2deg);
-			}
-		}
-		
-		.blanket-item:hover {
-			transform: scale(1.2);
-		}
-		
-		.night-scene {
-			font-size: 2em;
-			margin: 20px 0;
-			opacity: 0.8;
 		}
 	</style>
 </head>
