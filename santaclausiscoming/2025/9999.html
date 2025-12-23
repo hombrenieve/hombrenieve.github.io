@@ -316,6 +316,130 @@
 			border-radius: 15px;
 			border: 2px solid #FFD700;
 		}
+		
+		/* Mobile Responsive Styles */
+		@media (max-width: 768px) {
+			.victory-container {
+				padding: 25px;
+				margin: 15px 5px;
+			}
+			
+			.victory-title {
+				font-size: 2.5em;
+			}
+			
+			.celebration-emojis {
+				font-size: 3.5em;
+				gap: 15px;
+			}
+			
+			.achievement-badge {
+				font-size: 1.5em;
+				padding: 15px 25px;
+			}
+			
+			.brian-final-image {
+				width: 140px;
+				height: 140px;
+			}
+			
+			.final-audio-title {
+				font-size: 1.8em;
+			}
+			
+			.play-button-final {
+				padding: 12px 25px;
+				font-size: 16px;
+				margin: 0 8px;
+			}
+		}
+		
+		@media (max-width: 430px) {
+			.victory-container {
+				padding: 15px;
+				margin: 10px 3px;
+			}
+			
+			.victory-title {
+				font-size: 2em;
+				line-height: 1.1;
+			}
+			
+			.victory-subtitle {
+				font-size: 1.2em;
+			}
+			
+			.celebration-emojis {
+				font-size: 3em;
+				gap: 10px;
+				margin: 20px 0;
+			}
+			
+			.achievement-badge {
+				font-size: 1.2em;
+				padding: 12px 20px;
+				margin: 15px 0;
+			}
+			
+			.brian-final-message {
+				padding: 20px;
+				margin: 25px 0;
+			}
+			
+			.brian-final-image {
+				width: 100px;
+				height: 100px;
+			}
+			
+			.final-message-text {
+				font-size: 1.1em;
+			}
+			
+			.audio-controls-final {
+				padding: 20px;
+				margin: 25px 0;
+			}
+			
+			.final-audio-title {
+				font-size: 1.5em;
+				margin-bottom: 15px;
+			}
+			
+			.play-button-final {
+				padding: 8px 15px;
+				font-size: 14px;
+				margin: 0 5px;
+			}
+			
+			.congratulations-section {
+				padding: 20px;
+				margin: 25px 0;
+			}
+			
+			.congratulations-section h3 {
+				font-size: 1.5em;
+				margin-bottom: 15px;
+			}
+			
+			.congratulations-section div {
+				font-size: 2.5em;
+				margin: 20px 0;
+			}
+			
+			.final-thanks {
+				font-size: 1.2em;
+				padding: 20px;
+				margin: 25px 0;
+			}
+			
+			.firework {
+				font-size: 1.5em;
+			}
+			
+			.sparkle-particle {
+				font-size: 1.2em;
+			}
+		}
 	</style>
 </head>
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -372,9 +496,9 @@
 								</audio>
 								
 								<div style="margin-top: 25px;">
-									<button class="play-button-final" onclick="playFinalAudio()">🎵 Reproducir</button>
-									<button class="play-button-final" onclick="pauseFinalAudio()">⏸️ Pausar</button>
-									<button class="play-button-final" onclick="restartFinalAudio()">🔄 Reiniciar</button>
+									<button class="play-button-final" onclick="playAudio()">🎵 Reproducir</button>
+									<button class="play-button-final" onclick="pauseAudio()">⏸️ Pausar</button>
+									<button class="play-button-final" onclick="restartAudio()">🔄 Reiniciar</button>
 								</div>
 							</div>
 							
@@ -424,17 +548,16 @@
 			});
 		});
 		
-		function playFinalAudio() {
+		function playAudio() {
 			audio.play();
 		}
 		
-		function pauseFinalAudio() {
+		function pauseAudio() {
 			audio.pause();
 		}
 		
-		function restartFinalAudio() {
-			audio.currentTime = 0;
-			audio.play();
+		function restartAudio() {
+			window.location.reload();
 		}
 		
 		// Create fireworks effect
