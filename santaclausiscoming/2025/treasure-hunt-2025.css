@@ -308,7 +308,7 @@ audio {
 /* Specific Page Styles */
 
 /* Pattern Mystery Page (3442.html) */
-.mystery-container {
+body.pattern-mystery {
     background-image: url("media/estampado.jpg");
     background-size: cover;
     background-position: center;
@@ -316,9 +316,14 @@ audio {
     background-attachment: fixed;
 }
 
-.mystery-container .mystery-container {
-    background: rgba(255, 255, 255, 0.95);
-    background-image: none;
+.mystery-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 3px solid #d4af37;
 }
 
 .question-mark {
