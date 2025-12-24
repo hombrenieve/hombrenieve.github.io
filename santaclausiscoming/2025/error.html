@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Christmas 2025 - Código Incorrecto</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../shared/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../shared/images/apple-touch-icon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../shared/css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="../shared/css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="../shared/css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../shared/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../shared/css/custom.css">
+    <!-- Treasure Hunt 2025 CSS -->
+    <link rel="stylesheet" href="treasure-hunt-2025.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="error" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+	
+	<!-- Main Content -->
+	<div id="msg" class="about-box" style="margin-top: 50px;padding-top: 25px;padding-bottom: 50px;">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="error-container">
+							<div class="year-badge">🎄 2025 🎄</div>
+							
+							<h1 class="error-title">
+								<span class="error-emoji">❌</span>
+								¡Ups! Código Incorrecto
+								<span class="error-emoji">❌</span>
+							</h1>
+							
+							<p class="error-subtitle">¡No te preocupes, sigue buscando!</p>
+							
+							<!-- Error Image -->
+							<div>
+								<img class="error-image img-responsive" src="../shared/images/w2.png" alt="Error" />
+							</div>
+							
+							<div class="error-message-section">
+								<p class="instruction-text">
+									<strong>🔍 El código que has introducido no es válido:</strong>
+								</p>
+								
+								<div class="error-code" id="errorCode">
+									<!-- El código se mostrará aquí -->
+								</div>
+								
+								<p class="instruction-text">
+									¡Revisa las pistas y vuelve a intentarlo!
+								</p>
+							</div>
+							
+							<div class="retry-hint">
+								<p><strong>💡 Consejo del Elfo Brian:</strong></p>
+								<p>Cada pista tiene su código único. Asegúrate de haber resuelto correctamente el acertijo.</p>
+								<p>¡La aventura navideña continúa!</p>
+							</div>
+							
+							<div>
+								<a href="index.html" class="button-theme">
+									🔙 Volver e Intentar de Nuevo
+								</a>
+							</div>
+							
+							<p class="countdown" id="countdown">
+								Serás redirigido automáticamente en <span id="timer">5</span> segundos...
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		// Obtener el código de la URL y mostrarlo
+		const params = new URLSearchParams(window.location.search);
+		const code = params.get('code');
+		document.getElementById('errorCode').textContent = code || 'No especificado';
+		
+		// Countdown automático
+		let timeLeft = 5;
+		const timerElement = document.getElementById('timer');
+		
+		const countdown = setInterval(function() {
+			timeLeft--;
+			timerElement.textContent = timeLeft;
+			
+			if (timeLeft <= 0) {
+				clearInterval(countdown);
+				window.location.href = "index.html";
+			}
+		}, 1000);
+	</script>
+	
+	<!-- ALL JS FILES -->
+	<script src="../shared/js/jquery.min.js"></script>
+	<script src="../shared/js/popper.min.js"></script>
+	<script src="../shared/js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="../shared/js/jquery.magnific-popup.min.js"></script>
+    <script src="../shared/js/jquery.pogo-slider.min.js"></script> 
+	<script src="../shared/js/slider-index.js"></script>
+	<script src="../shared/js/smoothscroll.js"></script>
+	<script src="../shared/js/form-validator.min.js"></script>
+    <script src="../shared/js/contact-form-script.js"></script>
+	<script src="../shared/js/isotope.min.js"></script>	
+	<script src="../shared/js/images-loded.min.js"></script>	
+    <script src="../shared/js/custom.js"></script>
+</body>
+</html>

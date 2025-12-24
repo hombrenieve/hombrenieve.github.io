@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Christmas 2025 - ¡Aventura Completada!</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../shared/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../shared/images/apple-touch-icon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../shared/css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="../shared/css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="../shared/css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../shared/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../shared/css/custom.css">
+    <!-- Treasure Hunt 2025 CSS -->
+    <link rel="stylesheet" href="treasure-hunt-2025.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		body {
+			background: linear-gradient(135deg, #1a1a2e 0%, #16213e 25%, #0f3460 50%, #16213e 75%, #1a1a2e 100%);
+			background-attachment: fixed;
+			overflow-x: hidden;
+		}
+		
+		.victory-container {
+			background: linear-gradient(135deg, rgba(255, 215, 0, 0.95), rgba(255, 248, 220, 0.95));
+			border-radius: 25px;
+			padding: 50px;
+			margin: 20px 0;
+			box-shadow: 0 15px 40px rgba(255, 215, 0, 0.4);
+			text-align: center;
+			border: 4px solid #FFD700;
+			position: relative;
+			animation: victoryGlow 3s ease-in-out infinite alternate;
+		}
+		
+		@keyframes victoryGlow {
+			from {
+				box-shadow: 0 15px 40px rgba(255, 215, 0, 0.4);
+			}
+			to {
+				box-shadow: 0 20px 50px rgba(255, 215, 0, 0.7), 0 0 30px rgba(255, 215, 0, 0.3);
+			}
+		}
+		
+		.victory-title {
+			font-size: 3.5em;
+			color: #B8860B !important;
+			font-weight: bold !important;
+			text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4) !important;
+			margin: 30px 0;
+			line-height: 1.2;
+			animation: titlePulse 2s ease-in-out infinite alternate;
+		}
+		
+		@keyframes titlePulse {
+			from {
+				transform: scale(1);
+			}
+			to {
+				transform: scale(1.05);
+			}
+		}
+		
+		.victory-subtitle {
+			font-size: 1.8em;
+			color: #8B4513;
+			font-style: italic;
+			margin-bottom: 40px;
+			font-weight: 600;
+		}
+		
+		.celebration-emojis {
+			font-size: 4em;
+			margin: 30px 0;
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			flex-wrap: wrap;
+		}
+		
+		.celebration-emoji {
+			animation: celebrate 2s ease-in-out infinite;
+			display: inline-block;
+		}
+		
+		.celebration-emoji:nth-child(1) { animation-delay: 0s; }
+		.celebration-emoji:nth-child(2) { animation-delay: 0.3s; }
+		.celebration-emoji:nth-child(3) { animation-delay: 0.6s; }
+		.celebration-emoji:nth-child(4) { animation-delay: 0.9s; }
+		.celebration-emoji:nth-child(5) { animation-delay: 1.2s; }
+		
+		@keyframes celebrate {
+			0%, 100% {
+				transform: translateY(0) rotate(0deg) scale(1);
+			}
+			25% {
+				transform: translateY(-20px) rotate(10deg) scale(1.1);
+			}
+			50% {
+				transform: translateY(-10px) rotate(-5deg) scale(1.05);
+			}
+			75% {
+				transform: translateY(-15px) rotate(5deg) scale(1.08);
+			}
+		}
+		
+		.brian-final-message {
+			background: rgba(255, 255, 255, 0.9);
+			border-radius: 20px;
+			padding: 40px;
+			margin: 40px 0;
+			border: 3px solid #d4af37;
+			box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+		}
+		
+		.brian-final-image {
+			width: 180px;
+			height: 180px;
+			border-radius: 50%;
+			border: 5px solid #FFD700;
+			box-shadow: 0 8px 25px rgba(255, 215, 0, 0.5);
+			margin-bottom: 30px;
+			transition: transform 0.3s ease;
+			animation: brianGlow 3s ease-in-out infinite alternate;
+		}
+		
+		@keyframes brianGlow {
+			from {
+				box-shadow: 0 8px 25px rgba(255, 215, 0, 0.5);
+			}
+			to {
+				box-shadow: 0 12px 35px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.4);
+			}
+		}
+		
+		.brian-final-image:hover {
+			transform: scale(1.1);
+		}
+		
+		.final-message-text {
+			font-size: 1.4em;
+			line-height: 1.8;
+			color: #2c3e50;
+			text-align: justify;
+			margin-bottom: 25px;
+		}
+		
+		.audio-controls-final {
+			background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 248, 220, 0.3));
+			border-radius: 20px;
+			padding: 40px;
+			margin: 40px 0;
+			border: 3px solid #FFD700;
+			text-align: center;
+		}
+		
+		.final-audio-title {
+			font-size: 2.2em;
+			color: #B8860B;
+			font-weight: bold;
+			margin-bottom: 25px;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+		}
+		
+		audio {
+			width: 100%;
+			max-width: 600px;
+			margin: 25px 0;
+			border-radius: 15px;
+			box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+		}
+		
+		.play-button-final {
+			background: linear-gradient(135deg, #FFD700, #FFA500);
+			color: #8B4513;
+			border: none;
+			padding: 15px 35px;
+			border-radius: 30px;
+			font-size: 18px;
+			font-weight: bold;
+			cursor: pointer;
+			margin: 0 15px;
+			transition: all 0.3s ease;
+			box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+		}
+		
+		.play-button-final:hover {
+			background: linear-gradient(135deg, #FFA500, #FFD700);
+			transform: translateY(-3px);
+			box-shadow: 0 8px 25px rgba(255, 215, 0, 0.6);
+		}
+		
+		.congratulations-section {
+			background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 248, 220, 0.2));
+			border-radius: 20px;
+			padding: 40px;
+			margin: 40px 0;
+			border: 3px solid #FFD700;
+		}
+		
+		.achievement-badge {
+			background: linear-gradient(135deg, #FFD700, #FFA500);
+			color: #8B4513;
+			padding: 20px 40px;
+			border-radius: 50px;
+			font-size: 1.8em;
+			font-weight: bold;
+			display: inline-block;
+			margin: 20px 0;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+			box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4);
+			animation: badgeShine 3s ease-in-out infinite;
+		}
+		
+		@keyframes badgeShine {
+			0%, 100% {
+				transform: scale(1);
+				filter: brightness(1);
+			}
+			50% {
+				transform: scale(1.05);
+				filter: brightness(1.2);
+			}
+		}
+		
+		.fireworks {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			pointer-events: none;
+			z-index: -1;
+		}
+		
+		.firework {
+			position: absolute;
+			font-size: 2em;
+			animation: fireworkExplode 3s ease-out infinite;
+		}
+		
+		@keyframes fireworkExplode {
+			0% {
+				transform: scale(0) rotate(0deg);
+				opacity: 1;
+			}
+			50% {
+				transform: scale(1.5) rotate(180deg);
+				opacity: 0.8;
+			}
+			100% {
+				transform: scale(0.5) rotate(360deg);
+				opacity: 0;
+			}
+		}
+		
+		.magical-sparkles {
+			position: absolute;
+			top: -10px;
+			left: -10px;
+			right: -10px;
+			bottom: -10px;
+			pointer-events: none;
+			overflow: hidden;
+		}
+		
+		.sparkle-particle {
+			position: absolute;
+			color: #FFD700;
+			font-size: 1.5em;
+			animation: sparkleFloat 4s ease-in-out infinite;
+		}
+		
+		@keyframes sparkleFloat {
+			0%, 100% {
+				transform: translateY(0) rotate(0deg);
+				opacity: 0;
+			}
+			10%, 90% {
+				opacity: 1;
+			}
+			50% {
+				transform: translateY(-30px) rotate(180deg);
+				opacity: 0.8;
+			}
+		}
+		
+		.final-thanks {
+			font-size: 1.6em;
+			color: #8B4513;
+			font-weight: bold;
+			text-align: center;
+			margin: 40px 0;
+			padding: 30px;
+			background: rgba(255, 255, 255, 0.8);
+			border-radius: 15px;
+			border: 2px solid #FFD700;
+		}
+		
+		/* Mobile Responsive Styles */
+		@media (max-width: 768px) {
+			.victory-container {
+				padding: 25px;
+				margin: 15px 5px;
+			}
+			
+			.victory-title {
+				font-size: 2.5em;
+			}
+			
+			.celebration-emojis {
+				font-size: 3.5em;
+				gap: 15px;
+			}
+			
+			.achievement-badge {
+				font-size: 1.5em;
+				padding: 15px 25px;
+			}
+			
+			.brian-final-image {
+				width: 140px;
+				height: 140px;
+			}
+			
+			.final-audio-title {
+				font-size: 1.8em;
+			}
+			
+			.play-button-final {
+				padding: 12px 25px;
+				font-size: 16px;
+				margin: 0 8px;
+			}
+		}
+		
+		@media (max-width: 430px) {
+			.victory-container {
+				padding: 15px;
+				margin: 10px 3px;
+			}
+			
+			.victory-title {
+				font-size: 2em;
+				line-height: 1.1;
+			}
+			
+			.victory-subtitle {
+				font-size: 1.2em;
+			}
+			
+			.celebration-emojis {
+				font-size: 3em;
+				gap: 10px;
+				margin: 20px 0;
+			}
+			
+			.achievement-badge {
+				font-size: 1.2em;
+				padding: 12px 20px;
+				margin: 15px 0;
+			}
+			
+			.brian-final-message {
+				padding: 20px;
+				margin: 25px 0;
+			}
+			
+			.brian-final-image {
+				width: 100px;
+				height: 100px;
+			}
+			
+			.final-message-text {
+				font-size: 1.1em;
+			}
+			
+			.audio-controls-final {
+				padding: 20px;
+				margin: 25px 0;
+			}
+			
+			.final-audio-title {
+				font-size: 1.5em;
+				margin-bottom: 15px;
+			}
+			
+			.play-button-final {
+				padding: 8px 15px;
+				font-size: 14px;
+				margin: 0 5px;
+			}
+			
+			.congratulations-section {
+				padding: 20px;
+				margin: 25px 0;
+			}
+			
+			.congratulations-section h3 {
+				font-size: 1.5em;
+				margin-bottom: 15px;
+			}
+			
+			.congratulations-section div {
+				font-size: 2.5em;
+				margin: 20px 0;
+			}
+			
+			.final-thanks {
+				font-size: 1.2em;
+				padding: 20px;
+				margin: 25px 0;
+			}
+			
+			.firework {
+				font-size: 1.5em;
+			}
+			
+			.sparkle-particle {
+				font-size: 1.2em;
+			}
+		}
+	</style>
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+	
+	<!-- Fireworks Background -->
+	<div class="fireworks" id="fireworks"></div>
+	
+	<!-- Main Content -->
+	<div id="victory" class="about-box" style="margin-top: 50px;padding-top: 25px;padding-bottom: 50px;">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="victory-container">
+							<!-- Magical Sparkles -->
+							<div class="magical-sparkles" id="sparkles"></div>
+							
+							<h1 class="victory-title">
+								🎉 ¡FELICIDADES! 🎉
+							</h1>
+							
+							<p class="victory-subtitle">¡Habéis completado la Búsqueda del Tesoro Navideño 2025!</p>
+							
+							<div class="celebration-emojis">
+								<span class="celebration-emoji">🎄</span>
+								<span class="celebration-emoji">🎁</span>
+								<span class="celebration-emoji">⭐</span>
+								<span class="celebration-emoji">🎊</span>
+								<span class="celebration-emoji">🏆</span>
+							</div>
+							
+							<div class="achievement-badge">
+								🏆 AVENTUREROS NAVIDEÑOS 2025 🏆
+							</div>
+							
+							<div class="brian-final-message">
+								<img class="brian-final-image" src="media/brian.png" alt="Brian el Elfo" />
+								
+								<div class="final-message-text">
+									<strong>🧝‍♂️ Brian tiene un mensaje especial para vosotros 🧝‍♂️</strong>
+								</div>
+							</div>
+							
+							<div class="audio-controls-final">
+								<h2 class="final-audio-title">🎧 Mensaje Final de Brian 🎧</h2>
+								
+								<p style="font-size: 1.3em; color: #8B4513; margin-bottom: 25px;">
+									<strong>¡Escuchad este mensaje especial!</strong>
+								</p>
+								
+								<audio id="finalAudio" controls preload="auto">
+									<source src="media/9999.mp3" type="audio/mpeg">
+									Tu navegador no soporta el elemento de audio.
+								</audio>
+								
+								<div style="margin-top: 25px;">
+									<button class="play-button-final" onclick="playAudio()">🎵 Reproducir</button>
+									<button class="play-button-final" onclick="pauseAudio()">⏸️ Pausar</button>
+									<button class="play-button-final" onclick="restartAudio()">🔄 Reiniciar</button>
+								</div>
+							</div>
+							
+							<div class="congratulations-section">
+								<h3 style="font-size: 2em; color: #B8860B; margin-bottom: 25px;">🌟 ¡Lo habéis conseguido! 🌟</h3>
+								
+								<div style="margin: 30px 0; font-size: 3em;">
+									🎄 🎁 ⭐ 🎊 🏆 🎅 🧝‍♂️ ✨
+								</div>
+							</div>
+							
+							<div class="final-thanks">
+								¡Aventura Completada con Éxito!<br>
+								<span style="color: #FFD700;">✨ Búsqueda del Tesoro Navideño 2025 ✨</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+	</div>
+	
+	<!-- ALL JS FILES -->
+	<script src="../shared/js/jquery.min.js"></script>
+	<script src="../shared/js/popper.min.js"></script>
+	<script src="../shared/js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="../shared/js/jquery.magnific-popup.min.js"></script>
+    <script src="../shared/js/jquery.pogo-slider.min.js"></script> 
+	<script src="../shared/js/slider-index.js"></script>
+	<script src="../shared/js/smoothscroll.js"></script>
+	<script src="../shared/js/form-validator.min.js"></script>
+    <script src="../shared/js/contact-form-script.js"></script>
+	<script src="../shared/js/isotope.min.js"></script>	
+	<script src="../shared/js/images-loded.min.js"></script>	
+    <script src="../shared/js/custom.js"></script>
+	
+	<!-- Victory Celebration Script -->
+	<script>
+		const audio = document.getElementById('finalAudio');
+		
+		// Auto-play when page loads (with user interaction fallback)
+		window.addEventListener('load', function() {
+			// Try to autoplay, but browsers may block this
+			audio.play().catch(function(error) {
+				console.log('Autoplay was prevented. User interaction required.');
+			});
+		});
+		
+		function playAudio() {
+			audio.play();
+		}
+		
+		function pauseAudio() {
+			audio.pause();
+		}
+		
+		function restartAudio() {
+			window.location.reload();
+		}
+		
+		// Create fireworks effect
+		function createFirework() {
+			const fireworks = document.getElementById('fireworks');
+			const firework = document.createElement('div');
+			firework.className = 'firework';
+			firework.innerHTML = ['🎆', '✨', '🎇', '💫', '⭐'][Math.floor(Math.random() * 5)];
+			
+			// Random position
+			firework.style.left = Math.random() * 100 + '%';
+			firework.style.top = Math.random() * 100 + '%';
+			
+			// Random delay
+			firework.style.animationDelay = Math.random() * 2 + 's';
+			
+			fireworks.appendChild(firework);
+			
+			// Remove after animation
+			setTimeout(() => {
+				if (firework.parentNode) {
+					firework.parentNode.removeChild(firework);
+				}
+			}, 3000);
+		}
+		
+		// Create sparkles effect
+		function createSparkle() {
+			const sparkles = document.getElementById('sparkles');
+			const sparkle = document.createElement('div');
+			sparkle.className = 'sparkle-particle';
+			sparkle.innerHTML = ['✨', '⭐', '💫', '🌟'][Math.floor(Math.random() * 4)];
+			
+			// Random position around the container
+			sparkle.style.left = Math.random() * 100 + '%';
+			sparkle.style.top = Math.random() * 100 + '%';
+			
+			// Random delay
+			sparkle.style.animationDelay = Math.random() * 4 + 's';
+			
+			sparkles.appendChild(sparkle);
+			
+			// Remove after animation
+			setTimeout(() => {
+				if (sparkle.parentNode) {
+					sparkle.parentNode.removeChild(sparkle);
+				}
+			}, 4000);
+		}
+		
+		// Start effects when page loads
+		document.addEventListener('DOMContentLoaded', function() {
+			// Create initial fireworks
+			for (let i = 0; i < 5; i++) {
+				setTimeout(createFirework, i * 500);
+			}
+			
+			// Create initial sparkles
+			for (let i = 0; i < 8; i++) {
+				setTimeout(createSparkle, i * 300);
+			}
+			
+			// Continue creating effects
+			setInterval(createFirework, 2000);
+			setInterval(createSparkle, 1500);
+			
+			// Add click effect to Brian's image
+			const brianImage = document.querySelector('.brian-final-image');
+			brianImage.addEventListener('click', function() {
+				// Create celebration burst
+				for (let i = 0; i < 3; i++) {
+					setTimeout(createFirework, i * 200);
+				}
+				
+				// Temporary scale effect
+				this.style.transform = 'scale(1.3) rotate(360deg)';
+				this.style.transition = 'transform 1s ease';
+				
+				setTimeout(() => {
+					this.style.transform = 'scale(1) rotate(0deg)';
+				}, 1000);
+			});
+			
+			// Add hover effects to celebration emojis
+			const celebrationEmojis = document.querySelectorAll('.celebration-emoji');
+			celebrationEmojis.forEach((emoji, index) => {
+				emoji.addEventListener('click', function() {
+					// Create mini firework
+					createFirework();
+					
+					// Temporary bounce effect
+					this.style.animation = 'none';
+					this.style.transform = 'scale(1.5) rotate(720deg)';
+					this.style.transition = 'transform 0.8s ease';
+					
+					setTimeout(() => {
+						this.style.transform = 'scale(1) rotate(0deg)';
+						this.style.animation = `celebrate 2s ease-in-out infinite`;
+						this.style.animationDelay = (index * 0.3) + 's';
+					}, 800);
+				});
+			});
+			
+			// Add visual feedback when audio is playing
+			audio.addEventListener('play', function() {
+				document.querySelector('.audio-controls-final').style.border = '3px solid #FFA500';
+				document.querySelector('.audio-controls-final').style.boxShadow = '0 8px 25px rgba(255, 165, 0, 0.5)';
+			});
+			
+			audio.addEventListener('pause', function() {
+				document.querySelector('.audio-controls-final').style.border = '3px solid #FFD700';
+				document.querySelector('.audio-controls-final').style.boxShadow = 'none';
+			});
+			
+			audio.addEventListener('ended', function() {
+				document.querySelector('.audio-controls-final').style.border = '3px solid #FFD700';
+				document.querySelector('.audio-controls-final').style.boxShadow = 'none';
+				
+				// Create celebration burst when audio ends
+				for (let i = 0; i < 5; i++) {
+					setTimeout(createFirework, i * 300);
+				}
+			});
+		});
+		
+		// Add scroll-triggered effects
+		window.addEventListener('scroll', function() {
+			const scrolled = window.pageYOffset;
+			const rate = scrolled * -0.5;
+			
+			// Parallax effect for fireworks
+			const fireworks = document.getElementById('fireworks');
+			if (fireworks) {
+				fireworks.style.transform = `translateY(${rate}px)`;
+			}
+		});
+	</script>
+</body>
+</html>

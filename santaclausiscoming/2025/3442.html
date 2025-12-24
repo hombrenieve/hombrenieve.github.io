@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Christmas 2025 - Pattern Mystery</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../shared/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../shared/images/apple-touch-icon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../shared/css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="../shared/css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="../shared/css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../shared/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../shared/css/custom.css">
+    <!-- Treasure Hunt 2025 CSS -->
+    <link rel="stylesheet" href="treasure-hunt-2025.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		body {
+			background-image: url("media/estampado.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		
+		.mystery-container {
+			background: rgba(255, 255, 255, 0.9) !important;
+		}
+	</style>
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+	
+	<!-- wish -->
+	<div id="wish" class="about-box" style="margin-top: 50px;padding-top: 25px;padding-bottom: 50px;">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+								<div class="mystery-container">
+									<div class="question-mark">❓</div>
+									
+									<div class="mystery-text">
+										<span class="thinking-emoji">🤔</span>
+										¿dónde he visto yo este estampado?
+										<span class="thinking-emoji">🤔</span>
+									</div>									
+									<p style="margin-top: 40px;">
+										<a href="index.html" class="hvr-radial-out button-theme">Introducir nuevo código</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+	</div>
+	
+	<!-- ALL JS FILES -->
+	<script src="../shared/js/jquery.min.js"></script>
+	<script src="../shared/js/popper.min.js"></script>
+	<script src="../shared/js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="../shared/js/jquery.magnific-popup.min.js"></script>
+    <script src="../shared/js/jquery.pogo-slider.min.js"></script> 
+	<script src="../shared/js/slider-index.js"></script>
+	<script src="../shared/js/smoothscroll.js"></script>
+	<script src="../shared/js/form-validator.min.js"></script>
+    <script src="../shared/js/contact-form-script.js"></script>
+	<script src="../shared/js/isotope.min.js"></script>	
+	<script src="../shared/js/images-loded.min.js"></script>	
+    <script src="../shared/js/custom.js"></script>
+	
+	<!-- Custom Animation Script -->
+	<script>
+		// Add some interactive effects
+		document.addEventListener('DOMContentLoaded', function() {
+			const container = document.querySelector('.mystery-container');
+			
+			// Add hover effect
+			container.addEventListener('mouseenter', function() {
+				this.style.transform = 'scale(1.02)';
+				this.style.transition = 'transform 0.3s ease';
+			});
+			
+			container.addEventListener('mouseleave', function() {
+				this.style.transform = 'scale(1)';
+			});
+			
+			// Add click effect to question mark
+			const questionMark = document.querySelector('.question-mark');
+			questionMark.addEventListener('click', function() {
+				this.style.animation = 'none';
+				setTimeout(() => {
+					this.style.animation = 'bounce 1s infinite';
+				}, 100);
+			});
+		});
+	</script>
+</body>
+</html>

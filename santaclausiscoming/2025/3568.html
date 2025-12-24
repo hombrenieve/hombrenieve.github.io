@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Christmas 2025 - Brian's Final Clue</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../shared/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../shared/images/apple-touch-icon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../shared/css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="../shared/css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="../shared/css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../shared/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../shared/css/custom.css">
+    <!-- Treasure Hunt 2025 CSS -->
+    <link rel="stylesheet" href="treasure-hunt-2025.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+	
+	<!-- Main Content -->
+	<div id="wish" class="about-box" style="margin-top: 50px;padding-top: 25px;padding-bottom: 50px;">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="audio-container">
+							<div class="brian-header">
+								<img class="brian-image" src="media/brian.png" alt="Brian el Elfo" />
+								<h1 class="audio-title">
+									<span class="elf-emoji">🧝‍♂️</span>
+									Mensaje Final de Brian
+									<span class="elf-emoji">🧝‍♂️</span>
+								</h1>
+								<p class="audio-subtitle">Una de las últimas pistas te espera...</p>
+							</div>
+							
+							<div class="audio-controls">
+								<p style="font-size: 1.3em; color: #2c3e50; margin-bottom: 20px;">
+									<strong>🎧 Escucha atentamente el mensaje de Brian:</strong>
+								</p>
+								
+								<div class="audio-wave">🎵</div>
+								<div class="audio-wave" style="animation-delay: 0.2s;">🎶</div>
+								<div class="audio-wave" style="animation-delay: 0.4s;">🎵</div>
+								
+								<audio id="clueAudio" controls preload="auto">
+									<source src="media/3568.mp3" type="audio/mpeg">
+									Tu navegador no soporta el elemento de audio.
+								</audio>
+								
+								<div style="margin-top: 20px;">
+									<button class="play-button" onclick="playAudio()">▶️ Reproducir</button>
+									<button class="play-button" onclick="pauseAudio()">⏸️ Pausar</button>
+									<button class="play-button" onclick="restartAudio()">🔄 Reiniciar</button>
+								</div>
+							</div>
+							
+							<div class="final-clue-hint">
+								<p><strong>🎄 Pista Especial de Brian 🎄</strong></p>
+								<p>Este mensaje contiene información crucial para vuestra aventura.</p>
+								<p>¡Prestad mucha atención a cada palabra del elfo!</p>
+								<div style="margin-top: 15px;">
+									<span class="sparkle">✨</span>
+									<span style="font-size: 2em;">🧝‍♂️ 🎁 🔍</span>
+									<span class="sparkle">✨</span>
+								</div>
+							</div>
+							
+							<p style="margin-top: 40px;">
+								<a href="index.html" class="hvr-radial-out button-theme">Introducir nuevo código</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+	</div>
+	
+	<!-- ALL JS FILES -->
+	<script src="../shared/js/jquery.min.js"></script>
+	<script src="../shared/js/popper.min.js"></script>
+	<script src="../shared/js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="../shared/js/jquery.magnific-popup.min.js"></script>
+    <script src="../shared/js/jquery.pogo-slider.min.js"></script> 
+	<script src="../shared/js/slider-index.js"></script>
+	<script src="../shared/js/smoothscroll.js"></script>
+	<script src="../shared/js/form-validator.min.js"></script>
+    <script src="../shared/js/contact-form-script.js"></script>
+	<script src="../shared/js/isotope.min.js"></script>	
+	<script src="../shared/js/images-loded.min.js"></script>	
+    <script src="../shared/js/custom.js"></script>
+	
+	<!-- Custom Audio Script -->
+	<script>
+		const audio = document.getElementById('clueAudio');
+		
+		// Auto-play when page loads (with user interaction fallback)
+		window.addEventListener('load', function() {
+			// Try to autoplay, but browsers may block this
+			audio.play().catch(function(error) {
+				console.log('Autoplay was prevented. User interaction required.');
+			});
+		});
+		
+		function playAudio() {
+			audio.play();
+		}
+		
+		function pauseAudio() {
+			audio.pause();
+		}
+		
+		function restartAudio() {
+			window.location.reload();
+		}
+		
+		// Add visual feedback when audio is playing
+		audio.addEventListener('play', function() {
+			document.querySelector('.audio-container').style.border = '3px solid #d4af37';
+			document.querySelector('.audio-container').style.boxShadow = '0 8px 25px rgba(212, 175, 55, 0.5)';
+		});
+		
+		audio.addEventListener('pause', function() {
+			document.querySelector('.audio-container').style.border = '3px solid #d4af37';
+			document.querySelector('.audio-container').style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.3)';
+		});
+		
+		audio.addEventListener('ended', function() {
+			document.querySelector('.audio-container').style.border = '3px solid #d4af37';
+			document.querySelector('.audio-container').style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.3)';
+		});
+		
+		// Add click effect to Brian's image
+		document.querySelector('.brian-image').addEventListener('click', function() {
+			this.style.animation = 'none';
+			this.style.transform = 'scale(1.2) rotate(10deg)';
+			this.style.filter = 'brightness(1.2)';
+			
+			setTimeout(() => {
+				this.style.transform = 'scale(1) rotate(0deg)';
+				this.style.filter = 'brightness(1)';
+			}, 1000);
+		});
+	</script>
+</body>
+</html>
