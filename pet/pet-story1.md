@@ -10,6 +10,8 @@ However, success has not been easy. Nicolás has already fallen many times while
 
 One night, he flew over Almáriz, his hometown. The city, which was usually quiet, looked beautiful from above. He was flying silently through the clouds when he saw the glowing streetlights below. He realized he should use his powers for good. He told himself, "I am going to be a night vigilante." It was the most exciting moment of his life.
 
+![Intenso flight](./media/story1_1.png)
+
 ---
 
 ## Part II: 25 Practice Questions
