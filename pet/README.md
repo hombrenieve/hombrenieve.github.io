@@ -35,6 +35,7 @@ Every time you come back, there may be **new content** waiting for you (more sto
 
 - **Grammar cheatsheet** – a simple list of the most common structures you’ll see.
 - **Story 1** – the first adventure for your practice.
+- **Story 2** 🆕 - second adventure is ready, will you win or lose?
 
 
 > 🧩 Keep exploring, and enjoy the journey! The next chapter is coming soon...
