@@ -71,7 +71,7 @@ To help you understand the story, here are some useful words:
 
 11. Mars is the planet **___** the settlers want to live.
 12. They always check the equipment **___** the morning.
-13. The ten settlers decided to to land the spacecraft by **___**.
+13. The ten settlers decided to land the spacecraft by **___**.
 14. There were **___** many problems that they almost gave up.
 15. It was **___** incredible moment when the ship finally touched the ground.
 16. They had **___** seen anything as beautiful as the red landscape.
