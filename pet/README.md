@@ -28,7 +28,7 @@ Every time you come back, there may be **new content** waiting for you (more sto
 - Read the latest story chapter
 - Review one grammar rule (try using it in a sentence)
 - Take a quick quiz (the answers are hidden inside the story)
-- 🆕 📈 How are you doing so far?, check your current marks: [Current Marks](current_marks.md) 🆕
+- 📈 How are you doing so far?, check your current marks: [Current Marks](current_marks.md)
 
 ---
 
@@ -36,6 +36,7 @@ Every time you come back, there may be **new content** waiting for you (more sto
 
 - [Grammar cheatsheet](Grammar%20Cheatsheet.md) – a simple list of the most common structures you’ll see.
 - [Story 1 – the first adventure for your practice](pet-story1.md).
-- 🆕 [Story 2 – second adventure is ready, will you win or lose?](pet-story2.md). 🆕
+- [Story 2 – second adventure is ready, will you win or lose?](pet-story2.md).
+- 🆕 [Story 3 – a bumpy ride to the stars...](pet-story3.md). 🆕
 
 > 🧩 Keep exploring, and enjoy the journey! The next chapter is coming soon...
