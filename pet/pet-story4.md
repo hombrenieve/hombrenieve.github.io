@@ -22,7 +22,7 @@ As the ship hit the Martian atmosphere, the outside of the craft turned bright o
 
 Finally, with a heavy *thud*, the shaking stopped. Dust settled outside the windows. They had landed. They were the first humans on Mars, not because their equipment was perfect, but because their courage was.
 
-![The red horizon](./media/story3_1.png)
+![The red horizon](./media/story4_1.png)
 
 ---
 

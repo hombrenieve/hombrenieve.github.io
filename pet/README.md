@@ -37,6 +37,6 @@ Every time you come back, there may be **new content** waiting for you (more sto
 - [Grammar cheatsheet](Grammar%20Cheatsheet.md) – a simple list of the most common structures you’ll see.
 - [Story 1 – the first adventure for your practice](pet-story1.md).
 - [Story 2 – second adventure is ready, will you win or lose?](pet-story2.md).
-- 🆕 [Story 3 – a bumpy ride to the stars...](pet-story3.md). 🆕
+- [Story 4 – a bumpy ride to the stars...](pet-story4.md).
 
 > 🧩 Keep exploring, and enjoy the journey! The next chapter is coming soon...
