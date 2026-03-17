@@ -1,5 +1,3 @@
-This is a complete B1 Preliminary (PET) style examination pack designed for 11-year-old students. It focuses on the values of courage and teamwork through a high-stakes science fiction story.
-
 # 🚀 Mission to the Red Horizon
 
 ## Part I: The Story
