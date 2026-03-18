@@ -1,6 +1,6 @@
-## 🦸‍♂️ Intenso: The Shadow of Almáriz
+# 🦸‍♂️ Intenso: The Shadow of Almáriz
 
-### Part I: The Story
+## Part I: The Story
 
 The moon was bright over the quiet city of Almáriz. High above the streets, Nicolás—now called **Intenso**—was flying slowly. The metal "watch" on his wrist was working perfectly. It was his first night as a hero, and he felt very excited but also a bit nervous.
 
@@ -34,10 +34,11 @@ From that day, Nicolás decided to help people in secret. He didn't need everyon
 
 ---
 
-### 📚 Expanded Vocabulary & Phrasal Verbs
+## 📚 Expanded Vocabulary & Phrasal Verbs
 
-**Key Vocabulary:**
+### Key Vocabulary:
 * **Docks (noun):** The place by the water where boats stay.
+* **Pier (noun):** A structure built out over water, often made of wood (wooden pier), used as a platform for boats to dock
 * **Surface (noun):** The top part of the water.
 * **Force (noun):** Physical power or strength.
 * **Invention (noun):** Something new that someone has created (like Nicolás's watch).
@@ -46,7 +47,7 @@ From that day, Nicolás decided to help people in secret. He didn't need everyon
 * **Humility (noun):** The quality of not thinking you are better than other people.
 * **Unconscious (adjective):** Appearing to be asleep because of an injury.
 
-**Essential Phrasal Verbs:**
+### Essential Phrasal Verbs:
 * **Go toward:** To move in the direction of something.
 * **Come out:** To move from inside to outside (like the light from the watch).
 * **Come back:** To return.
@@ -56,23 +57,23 @@ From that day, Nicolás decided to help people in secret. He didn't need everyon
 
 ---
 
-### Part II: Practice Questions
+## Part II: Practice Questions
 
-#### Reading Understanding
+### Reading Understanding
 1. How did Nicolás feel at the beginning of his flight?
 2. Where were the police going after they turned on their sirens?
 3. Why did the thief fall into the water?
 4. What did Nicolás do after the thief fell into the sea?
 5. Why did Nicolás decide to fly away when the police arrived?
 
-#### Grammar Focus: Multiple Choice
+### Grammar Focus: Multiple Choice
 6. While Nicolás **___** over the city, he heard a noise. **a)** flies, **b)** was flying, **c)** has flown
 7. The energy beam was **___** Nicolás expected. **a)** powerful than, **b)** the most powerful, **c)** more powerful than
 8. If he **___** the thief, the man would have drowned. **a)** didn't save, **b)** hasn't saved, **c)** hadn't saved
 9. Nicolás **___** use his powers for fame in the future. **a)** won't, **b)** hasn't, **c)** doesn't
 10. The police **___** at the docks yet when the thief fell. **a)** didn't arrive, **b)** hadn't arrived, **c)** aren't arriving
 
-#### Grammar Focus: Fill-in-the-Gaps (One word only)
+### Grammar Focus: Fill-in-the-Gaps (One word only)
 11. The docks are the place **___** the thief fell into the water.
 12. Nicolás is interested **___** helping people in danger.
 13. He dived into the water to save the man **___** himself.
@@ -81,7 +82,7 @@ From that day, Nicolás decided to help people in secret. He didn't need everyon
 16. The thief was saved **___** the young hero.
 17. He needs to practice **___** order to control his beams.
 
-#### Grammar Focus: Sentence Transformation (Use 1-3 words)
+### Grammar Focus: Sentence Transformation (Use 1-3 words)
 18. "The thief was hit by a purple beam." ➡️ A purple beam **___** the thief.
 19. "I am sorry for my mistake," said Nicolás. ➡️ Nicolás said he **___** sorry for his mistake.
 20. "It’s a good idea to be careful," the woman said. ➡️ You **___** be careful.

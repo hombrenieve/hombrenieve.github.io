@@ -1,6 +1,6 @@
-## 🔑 Answer Key: The Red and White Heart
+# 🔑 Answer Key: The Red and White Heart
 
-### Reading Understanding
+## Reading Understanding
 
 1. **1-4** (They were losing by three goals).
 2. Because they **thought the game was over** (or they thought Atlético would lose).
@@ -10,7 +10,7 @@
 
 ---
 
-### Grammar Focus: Multiple Choice
+## Grammar Focus: Multiple Choice
 
 6. **b) were** (Past Simple of 'to be' for a plural subject).
 7. **b) was holding** (Past Continuous for an action in progress when another started).
@@ -18,7 +18,7 @@
 9. **c) had tried** (Third Conditional for an imaginary past situation).
 10. **a) hasn't won** (Present Perfect for an unfinished time period/experience).
 
-### Grammar Focus: Fill-in-the-Gaps (One word only)
+## Grammar Focus: Fill-in-the-Gaps (One word only)
 
 11. **where** (Relative clause for a place).
 12. **in** (Preposition of time: "in the morning").
@@ -28,7 +28,7 @@
 16. **never** (Adverb of frequency).
 17. **to** (Infinitive after the verb *decided*).
 
-### Grammar Focus: Sentence Transformation
+## Grammar Focus: Sentence Transformation
 
 18. **kicked** (Active voice transformation).
 19. **were** (Reported speech: "are" shifts back to "were").
@@ -41,7 +41,7 @@
 
 ---
 
-## 💡 Teacher’s Pedagogical Notes
+# 💡 Teacher’s Pedagogical Notes
 
 > **The Reported Question (Question 22):** This is often the hardest transformation for B1 students. Remind them that in reported speech, the question "Is the coach...?" loses its question word order and becomes a statement: "...the coach was."
 
@@ -51,11 +51,11 @@ Would you like me to create a **Vocabulary List** with the most difficult words 
 
 ---
 
-## 📖 Vocabulary List: The Red and White Heart
+# 📖 Vocabulary List: The Red and White Heart
 
 To help your students master the B1 level, here are the most important or challenging words from the story:
 
-### Key Vocabulary & Phrases
+## Key Vocabulary & Phrases
 
 * **Atmosphere**: The feeling or mood in a particular place (e.g., "The atmosphere in the stadium was electric").
 * **Scoreboard**: A large board that shows the score of a game or match.
@@ -70,7 +70,7 @@ To help your students master the B1 level, here are the most important or challe
 
 ---
 
-### Grammar Tip: Irregular Past Simple
+## Grammar Tip: Irregular Past Simple
 
 The story uses several irregular verbs that often appear in the PET exam. Ensure your students know these forms:
 
@@ -84,6 +84,6 @@ The story uses several irregular verbs that often appear in the PET exam. Ensure
 
 ---
 
-### 💡 Teacher's Tip: "False Friends"
+## 💡 Teacher's Tip: "False Friends"
 
 In Spanish, **"Exhaustion"** looks like *exhausto*, but remind students it acts as a noun here. Also, **"Realized"** (from the previous story) means "to notice/understand," not "to perform an action" (*realizar*).
