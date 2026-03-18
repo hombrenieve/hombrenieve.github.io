@@ -27,6 +27,8 @@ That comment changed something inside him. He thought that he could really focus
 
 Nicolás looked at the pen, then at the blue light of Lumos glowing on his portable drive. He knew that this path would be difficult and dangerous, but he also knew that he had worked too hard to walk away now. With a steady hand, he signed the first contract of a lifetime series. As he left the facility, he knew his life as a simple student was over. He was now the architect of a New Era.
 
+![the contracts](./media/story5_1.png)
+
 ---
 
 ## 📚 Vocabulary & Grammar Study List
