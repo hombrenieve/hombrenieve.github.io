@@ -38,5 +38,6 @@ Every time you come back, there may be **new content** waiting for you (more sto
 - [Story 1 – the first adventure for your practice](pet-story1.md).
 - [Story 2 – second adventure is ready, will you win or lose?](pet-story2.md).
 - [Story 3 - when the night comes, the shadows will rise](pet-story3.md).
+- :arrow_right: :new: [Story 4 – a bumpy ride to the stars...](pet-story4.md). :new: :arrow_left:
 
 > 🧩 Keep exploring, and enjoy the journey! The next chapter is coming soon...

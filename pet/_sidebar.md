@@ -5,3 +5,4 @@
     * [Story 1: The flight of Intenso](pet-story1.md)
     * [Story 2: The Red and White Heart](pet-story2.md)
     * [Story 3: The Shadow of Almáriz](pet-story3.md)
+    * [Story 4: Mission to the Red Horizon](pet-story4.md)
