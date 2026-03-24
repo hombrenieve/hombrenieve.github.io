@@ -9,6 +9,8 @@ Welcome to your progress page! This is where you can keep track of your latest s
     - Great improvement, Nico! You jumped from 12 to 16 — that's real progress. Your hard work is clearly paying off, keep it up!
 - **Difference test 3:** 5.9/10 (16/27)
     - A small dip in the graph doesn't change the slope of your success. You're still heading exactly where you need to be, so just keep pushing.
+- **Difference test 4:** 6.8/10 (17/27)
+    - Just step by step, don't rush, you will get there!
 
 ## 📈 Progress graph
 
