@@ -39,6 +39,7 @@ Every time you come back, there may be **new content** waiting for you (more sto
 - [Story 2 – second adventure is ready, will you win or lose?](pet-story2.md).
 - [Story 3 - when the night comes, the shadows will rise](pet-story3.md).
 - [Story 4 – a bumpy ride to the stars...](pet-story4.md).
-- :arrow_right: :new: [Story 5 - be prepared to build the future](pet-story5.md). :new: :arrow_left:
+- [Story 5 - be prepared to build the future](pet-story5.md).
+- :arrow_right: :new: [Story 6 - hear my roar!](pet-story6.md) :new: :arrow_left:
 
 > 🧩 Keep exploring, and enjoy the journey! The next chapter is coming soon...

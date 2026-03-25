@@ -11,6 +11,8 @@ Welcome to your progress page! This is where you can keep track of your latest s
     - A small dip in the graph doesn't change the slope of your success. You're still heading exactly where you need to be, so just keep pushing.
 - **Difference test 4:** 6.8/10 (17/27)
     - Just step by step, don't rush, you will get there!
+- **Difference test 5:** 7.2/10 (18/25)
+    - Well done!, your first mark above 7 means you are closer to pass the exam!.
 
 ## 📈 Progress graph
 
