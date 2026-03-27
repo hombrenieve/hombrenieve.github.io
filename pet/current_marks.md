@@ -13,6 +13,8 @@ Welcome to your progress page! This is where you can keep track of your latest s
     - Just step by step, don't rush, you will get there!
 - **Difference test 5:** 7.2/10 (18/25)
     - Well done!, your first mark above 7 means you are closer to pass the exam!.
+- **Difference test 6:** 8.0/10 (19/25)
+    - That's how it is done!, congratulations... keep the pace!
 
 ## 📈 Progress graph
 

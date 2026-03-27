@@ -8,4 +8,5 @@
     * [Story 4: Mission to the Red Horizon](pet-story4.md)
     * [Story 5: The Architect of a new era](pet-story5.md)
     * [Story 6: The Lion Who Was Alone](pet-story6.md)
+    * [Story 7: Intenso: The Silent Guardian](pet-story7.md)
 
