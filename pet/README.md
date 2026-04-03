@@ -41,6 +41,7 @@ Every time you come back, there may be **new content** waiting for you (more sto
 - [Story 4 – a bumpy ride to the stars...](pet-story4.md).
 - [Story 5 - be prepared to build the future](pet-story5.md).
 - [Story 6 - hear my roar!](pet-story6.md)
-- :arrow_right: :new: [Story 7 - A night at the station](pet-story7.md) :new: :arrow_left:
+- [Story 7 - A night at the station](pet-story7.md)
+- :arrow_right: :new: [Story 8 - Missing you](pet-story8.md) :new: :arrow_left:
 
 > 🧩 Keep exploring, and enjoy the journey! The next chapter is coming soon...
