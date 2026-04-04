@@ -6,7 +6,7 @@
 
 *Manchester, 14th March*
 
-Dear Álvaro,
+Dear Nacho,
 
 I wrote this letter three times before I finally sent it. I kept deleting everything because I didn't know where to begin. But today the sun came out for the first time in weeks here in Manchester, and I sat by the window of my room and thought of you. So here we go.
 
@@ -24,7 +24,7 @@ At the film club, I met a group of people who had come from different countries 
 
 Since that night, everything has changed. I have made real friends. I have tried foods I had never eaten before. I have spoken English every single day, and my teachers say I have improved enormously. Last month I got the best mark in my class on the science project. I nearly fell off my chair when the teacher read out my name!
 
-I think about you all the time, Álvaro. I grew up with you. We built dens in the garden, we rode our bikes down that dangerous hill behind Uncle Rafael's house, we ate so much watermelon at Grandma's that we were sick — do you remember? Those memories have kept me strong when things got difficult here. Family is the thing you carry with you, even when you are very far away.
+I think about you all the time, Nacho. I grew up with you. We built dens in the garden, we rode our bikes down that dangerous hill behind Uncle Rafael's house, we ate so much watermelon at Grandma's that we were sick — do you remember? Those memories have kept me strong when things got difficult here. Family is the thing you carry with you, even when you are very far away.
 
 But I also have learnt something important: growing up is not something that happens to you slowly. It hits you all at once, like cold water. One day you are a child. The next day you are making your own breakfast, paying for your own bus ticket, deciding what to study and who to be. It is exciting and scary at the same time. I think we are both becoming different people, you and I. And I think that is a good thing.
 
@@ -87,11 +87,11 @@ Answer these questions in your own words. Use complete sentences.
 
 **2.** What happened at the film club that made Marco feel better?
 
-**3.** What memory does Marco share of his childhood with Álvaro? Provide one example.
+**3.** What memory does Marco share of his childhood with Nacho? Provide one example.
 
 **4.** What does Marco say he has learnt about growing up?
 
-**5.** Why does Marco think Álvaro's parents should let him visit?
+**5.** Why does Marco think Nacho's parents should let him visit?
 
 ---
 
@@ -156,8 +156,8 @@ Rewrite the sentence using the word given. **Use 1–3 words only** in the gap. 
 **19.** "I'm not as happy at home as I am here," Marco thought. *(COMPARATIVE)*  
 ➡️ Marco thought he was \_\_\_ here than at home.
 
-**20.** "I will come and visit," said Álvaro. *(REPORTED SPEECH)*  
-➡️ Álvaro said that he \_\_\_ come and visit.
+**20.** "I will come and visit," said Nacho. *(REPORTED SPEECH)*  
+➡️ Nacho said that he \_\_\_ come and visit.
 
 **21.** "It's possible that you will surprise your parents," Marco wrote. *(MIGHT)*  
 ➡️ You \_\_\_ surprise your parents.
@@ -169,7 +169,7 @@ Rewrite the sentence using the word given. **Use 1–3 words only** in the gap. 
 ➡️ Marco did the science project \_\_\_ .
 
 **24.** "I will show you everything, if you come to visit." *(FIRST CONDITIONAL)*
-➡️ Marco will show Álvaro everything if he \_\_\_ to visit.
+➡️ Marco will show Nacho everything if he \_\_\_ to visit.
 
 **25.** "No food I have ever eaten is as amazing as the market street food." *(SUPERLATIVE)*  
 ➡️ The market street food is the \_\_\_ food Marco has ever tasted.
