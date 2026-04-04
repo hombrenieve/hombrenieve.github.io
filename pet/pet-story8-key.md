@@ -15,7 +15,7 @@
 
 **4.** Marco learnt that growing up does not happen slowly — it happens all at once, like cold water. Suddenly you are making your own decisions about breakfast, transport, and who you want to be.
 
-**5.** Marco thinks Álvaro's parents should let him visit because Álvaro will probably do a course abroad himself in a couple of years, so visiting Marco would be good practice. Also, Álvaro would not be alone.
+**5.** Marco thinks Nacho's parents should let him visit because Nacho will probably do a course abroad himself in a couple of years, so visiting Marco would be good practice. Also, Nacho would not be alone.
 
 ---
 
