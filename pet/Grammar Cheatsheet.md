@@ -140,4 +140,44 @@
 - Use **who** (people), **which** (things), or **that** (both).
     
     - _Example:_ The man **who** lives next door is a doctor.
-        
+
+## 19. Past Perfect
+
+* **Usage**: To describe an action that happened **before** another action in the past (the "past of the past").
+* **Structure**: *Had* + *Past Participle*.
+  * *Example*: When the police arrived, the thief **had** already **fallen** into the water.
+* **Key Words**: Before, after, already, just, by the time.
+ 
+## 20. Quantifiers (Adverbs of Quantity)
+
+* **Countable Nouns** (things you can count: fans, rocks, goals):
+  * **Many / A few / A lot of**.
+  * *Example*: There weren't **many** people in the university that night.
+* **Uncountable Nouns** (things you can't count: time, energy, water, luck):
+  * **Much / A little / A lot of**.
+  * *Example*: It takes **a lot of** energy to fly.
+* **Common PET Usage**:
+  * **Some**: Used in positive sentences.
+  * **Any**: Used in negative sentences and questions.
+  * **Enough**: Used to show there is a sufficient amount.
+
+## 21. Emphasizing Quantity: So and Such
+We use these to add emphasis or to show a specific result (often followed by **that**).
+
+### **A. Using "So" with Quantifiers**
+* **So many / So few**: Use with **Countable** nouns.
+  * *Example*: There were **so many** fans that the noise was incredible.
+* **So much / So little**: Use with **Uncountable** nouns.
+  * *Example*: Nicolás had **so little** time that he had to act fast.
+
+### **B. Using "So" vs "Such"**
+* **So + Adjective**: *The water was **so** cold*.
+* **Such + (a/an) + Adjective + Noun**: *It was **such a** difficult situation*.
+ 
+### 💡 Quick Comparison for Transformations
+| Structure | Noun Type | PET Example |
+|---|---|---|
+| **So many** | Countable | There were **so many** players on the pitch. |
+| **So few** | Countable | **So few** people knew his secret. |
+| **So much** | Uncountable | The rock created **so much** energy. |
+| **So little** | Uncountable | There was **so little** light in the alley. |
